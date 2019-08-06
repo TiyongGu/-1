@@ -1,5 +1,5 @@
 package com.iotek.entity;
-
+//ÄãÊÇË­£¬ÄãÊÇ°¢À­ÀÙÂğ£¿
 public class Animals {
      private Integer id;
      private String name;
