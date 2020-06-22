@@ -15,7 +15,7 @@ import com.iotek.entity.Animals;
 
 
 /**
- * QueryRunner 是Dbutils核心对象:封装对数据库进行CRUD操作
+ * QueryRunner 锟斤拷Dbutils锟斤拷锟侥讹拷锟斤拷:锟斤拷装锟斤拷锟斤拷锟捷匡拷锟斤拷锟紺RUD锟斤拷锟斤拷  涔辩爜淇敼
  * @author Administrator
  *
  */
@@ -55,7 +55,7 @@ public class DbutilsCrud {
     		conn=JDBCTools.getConnection();
         	String sql="update tb_animals set name=?,weight=? where id=?";
         	
-        	int count=qr.update(conn, sql, "小白",5,100);
+        	int count=qr.update(conn, sql, "小锟斤拷",5,100);
         	System.out.println("count="+count);
 		} catch (Exception e) {
 			// TODO: handle exception
@@ -65,8 +65,8 @@ public class DbutilsCrud {
     }
     
     /**
-     * 返回一个对象--对应就是一条记录
-     * BeanHandler对象
+     * 锟斤拷锟斤拷一锟斤拷锟斤拷锟斤拷--锟斤拷应锟斤拷锟斤拷一锟斤拷锟斤拷录
+     * BeanHandler锟斤拷锟斤拷
      */
     public void getAnimals(){
     	try {
@@ -83,8 +83,8 @@ public class DbutilsCrud {
     }
     
     /**
-     * 返回一个对象--对应就是一条记录
-     * BeanListHandler对象--resultSets转换成List<bean>
+     * 锟斤拷锟斤拷一锟斤拷锟斤拷锟斤拷--锟斤拷应锟斤拷锟斤拷一锟斤拷锟斤拷录
+     * BeanListHandler锟斤拷锟斤拷--resultSets转锟斤拷锟斤拷List<bean>
      */
     public void getQueryAllAnimals(){
     	try {
@@ -101,7 +101,7 @@ public class DbutilsCrud {
     }
     
     /**
-     * 把一条记录转换成Map集合
+     * 锟斤拷一锟斤拷锟斤拷录转锟斤拷锟斤拷Map锟斤拷锟斤拷
      * MapHandler -
      */
     public void getQueryMapAnimals(){
@@ -120,7 +120,7 @@ public class DbutilsCrud {
     
     
     /**
-     * 把多条记录转换成List<Map>集合
+     * 锟窖讹拷锟斤拷锟斤拷录转锟斤拷锟斤拷List<Map>锟斤拷锟斤拷
      * MapListHandler -
      */
     public void getQueryListMapAnimals(){
@@ -137,7 +137,7 @@ public class DbutilsCrud {
     	
     }
     /**
-     * 查询出总记录数，并返回
+     * 锟斤拷询锟斤拷锟杰硷拷录锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷
      */
     public void getAnimalsCount(){
     	try {

@@ -24,10 +24,10 @@ public class JDBCTools {
     	 
      }
      public static Connection getConnection(){
-    	 
+    	 //è¿™é‡Œæœ‰å¾ˆå¤šä¹±ç 
     	 try {
-    		 Class.forName("com.mysql.jdbc.Driver");//Ïàµ±ÓÚ¾ÍÊÇnewÒ»¸öDriver£¨£©£»Ö»ÊÇÕâÀïÊÇÓÃ
-//    		 ·´Éäclass.forname(ÀàµÄÈ«³Æ)À´»ñÈ¡Õâ¸öÀà£¬ÕâÖÖ·½Ê½¿ÉÒÔ±ÜÃâ²»Í¬Êı¾İ¿âµÄDriverÖØÃû
+    		 Class.forName("com.mysql.jdbc.Driver");//ï¿½àµ±ï¿½Ú¾ï¿½ï¿½ï¿½newÒ»ï¿½ï¿½Driverï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+//    		 ï¿½ï¿½ï¿½ï¿½class.forname(ï¿½ï¿½ï¿½È«ï¿½ï¿½)ï¿½ï¿½ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½à£¬ï¿½ï¿½ï¿½Ö·ï¿½Ê½ï¿½ï¿½ï¿½Ô±ï¿½ï¿½â²»Í¬ï¿½ï¿½ï¿½İ¿ï¿½ï¿½Driverï¿½ï¿½ï¿½ï¿½
 //    		 new Driver();
         	 Connection conn=DriverManager.getConnection(url,user,password);
         	 System.out.println("conn="+conn);
