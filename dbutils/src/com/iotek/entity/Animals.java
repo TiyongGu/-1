@@ -1,7 +1,7 @@
 package com.iotek.entity;
 
 public class Animals {
-
+    大萨达撒大多所
      private Integer id;
      private String name;
      private float weight;
